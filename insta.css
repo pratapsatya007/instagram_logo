@@ -1,0 +1,80 @@
+.container {
+  border: 1px solid white;
+  border-radius: 20%;
+  background-image: linear-gradient(
+    to bottom left,
+    #405de6,
+    #5b51d8,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third {
+  background-image: linear-gradient(
+    to bottom left,
+    #405de6,
+    #5b51d8,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+  width: 160px;
+  height: 160px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.four {
+  background-color: white;
+  border-radius: 100%;
+  width: 78px;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five {
+  background-image: linear-gradient(
+    to left bottom,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040
+  );
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+.circle {
+  background-color: white;
+  border-radius: 100%;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.box {
+  border: 2px solid white;
+  padding: 10px 10px;
+  margin: 50px 940px 50px 350px;
+}
